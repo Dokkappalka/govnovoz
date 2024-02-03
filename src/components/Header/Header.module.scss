@@ -1,8 +1,7 @@
 .container {
     width: 100%;
     background-color: #f7f7f7;
-    box-shadow: 2px 6px 10px 0px rgba(0, 0, 0, 0.185);
-    height: 185px;
+    height: 165px;
 }
 
 .aboutContainer {
@@ -28,13 +27,37 @@
 }
 
 .nav {
+    background-color: #f7f7f7;  
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.185);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    div {
+        position: relative;  
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
     p {
-        margin: 0 10px;
+        text-align: center;
+        margin: 0 20px;
         color: #466e7a;
+    }
+    .list {
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.185);
+        position: absolute;
+        background-color: rgb(82, 160, 206);
+        border-top: none;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 100%;
+        top: 60px;
+        height: 300px;
     }
 }
 

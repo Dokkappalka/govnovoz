@@ -28,13 +28,6 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <nav className={styles.nav}>
-        <Link to={'products'} className={styles.navLink}>Продукция</Link>
-        <p>Оборудование для сельского хозяйства и животноводства</p>
-        <p>Сельскохозяйственная техника</p>
-        <p>Контакты</p>
-        
-      </nav>
     </header>
   );
 };
