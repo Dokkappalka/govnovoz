@@ -13,12 +13,18 @@ const Header = () => {
           <div>
             <p>
               <img src={PhoneIcon} height={18} width={18} />
-              +7 (999) 999-99-99
+              +7 (925) 077-52-33
+            </p>
+          </div>
+          <div>
+            <p>
+              <img src={PhoneIcon} height={18} width={18} />
+              +7 (966) 119-85-86
             </p>
           </div>
           <p>
             <img src={MailIcon} height={18} width={18} />
-            govnovoz@mail.ru
+            alfa-agri@mail.ru
           </p>
         </div>
       </div>
