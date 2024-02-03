@@ -23,11 +23,11 @@ const Header = () => {
         </div>
       </div>
       <nav className={styles.nav}>
-        <Link to={'products'} className={styles.navLink}>Группа 1</Link>
-        <p>Группа 2</p>
-        <p>Группа 3</p>
-        <p>Группа 4</p>
-        <p>Группа 5</p>
+        <Link to={'products'} className={styles.navLink}>Продукция</Link>
+        <p>Оборудование для сельского хозяйства и животноводства</p>
+        <p>Сельскохозяйственная техника</p>
+        <p>Контакты</p>
+        
       </nav>
     </header>
   );
